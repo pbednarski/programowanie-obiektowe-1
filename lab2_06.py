@@ -8,7 +8,6 @@ def fiboncciGenerator(n):
 
 
 print('Set Fibonacci length:')
-int(n) = input()
-obj = fiboncciGenerator(n)
+obj = fiboncciGenerator(int(input()))
 seq = list(obj)
 print(seq)
